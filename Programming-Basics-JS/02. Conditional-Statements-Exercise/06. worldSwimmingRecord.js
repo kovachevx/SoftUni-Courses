@@ -1,4 +1,4 @@
-function swimmingRecord(input){
+function swimmingRecord(input) {
 
     let record = Number(input[0]);
     let distanceInM = Number(input[1]);
@@ -8,14 +8,13 @@ function swimmingRecord(input){
     let delayTime = delayCount * 12.5;
 
     let timeNeeded = distanceInM * mPerSec + delayTime;
-
     let diff = Math.abs(timeNeeded - record);
 
-if (timeNeeded < record){
-console.log(`Yes, he succeeded! The new world record is ${timeNeeded.toFixed(2)} seconds.`)
-} else {
-    console.log(`No, he failed! He was ${diff.toFixed(2)} seconds slower.`)
-}
+    if (timeNeeded < record) {
+        console.log(`Yes, he succeeded! The new world record is ${timeNeeded.toFixed(2)} seconds.`);
+    } else {
+        console.log(`No, he failed! He was ${diff.toFixed(2)} seconds slower.`);
+    }
 
 }
 
