@@ -1,0 +1,3 @@
+Every JavaScript Advanced lab & exercise problems decription file can be found at:
+
+https://judge.softuni.org/Contests/#!/List/ByCategory/304/JS-Advanced
